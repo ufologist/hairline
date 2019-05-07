@@ -57,7 +57,7 @@
 | `.hairline--right`  | right hairline border      |
 | `.hairline--bottom` | bottom hairline border      |
 | `.hairline--left`   | left hairline border      |
-| `.hairline--input`  | input control hairline border      |
+| `.hairline--input`  | input/textarea element hairline border      |
 
 ## 其他实现
 
