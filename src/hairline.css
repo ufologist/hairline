@@ -25,21 +25,21 @@
 
 /* 全边框 */
 .hairline--round:after {
-    border-width: 1px;
+    border-width: 1px; /* no */
 }
 
 /* 单边框 */
 .hairline--top:after {
-    border-top-width: 1px;
+    border-top-width: 1px; /* no */
 }
 .hairline--right:after {
-    border-right-width: 1px;
+    border-right-width: 1px; /* no */
 }
 .hairline--bottom:after {
-    border-bottom-width: 1px;
+    border-bottom-width: 1px; /* no */
 }
 .hairline--left:after {
-    border-left-width: 1px;
+    border-left-width: 1px; /* no */
 }
 
 /* 输入框 */
