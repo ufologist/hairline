@@ -1,0 +1,27 @@
+{
+  "name": "hairline",
+  "version": "1.0.0",
+  "description": "CSS retina hairline",
+  "main": "src/hairline.css",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufologist/hairline.git"
+  },
+  "keywords": [
+    "retina",
+    "hairline",
+    "1px"
+  ],
+  "author": "Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ufologist/hairline/issues"
+  },
+  "homepage": "https://github.com/ufologist/hairline#readme"
+}
