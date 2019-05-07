@@ -1,0 +1,84 @@
+.hairline-demo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+.hairline-demo__box {
+    width: 200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+}
+.hairline-demo__box:after {
+    border-color: red;
+}
+
+.hairline-demo__box--principle {
+    position: relative;
+}
+.hairline-demo__box--principle:after {
+    content: '';
+    position: absolute;
+    border-width: 1px;
+    border-style: solid;
+}
+.hairline-demo__box--principle-scale-up {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.hairline-demo__box--principle-scale-up:after {
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+}
+.hairline-demo__box--principle-scale-down:after {
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+
+.hairline-demo__box--round {
+    border-radius: calc(20px/2); /* 边框的圆角缩放了, 因此容器为了配合需要设置圆角的一半 */
+}
+.hairline-demo__box--round:after {
+    border-radius: 20px; /* 边框的圆角 */
+}
+
+.hairline-demo__box--more:after {
+    border-width: 1px 1px 0 0;
+}
+
+.hairline-demo__box--more-round1 {
+    border-radius: calc(20px/2);
+}
+.hairline-demo__box--more-round1:after {
+    border-radius: 20px;
+    border-width: 1px 1px 1px 0;
+}
+
+.hairline-demo__box--more-round2 {
+    border-radius: calc(20px/2);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.hairline-demo__box--more-round2:after {
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: 1px 1px 1px 0;
+}
+
+.hairline-demo__box--normal {
+    border: 1px solid red;
+}
+.hairline-demo__box--05px {
+    border: 0.5px solid red;
+}
