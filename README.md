@@ -11,7 +11,7 @@
 
 [![npm-image](https://nodei.co/npm/hairline.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.com/package/hairline)
 
-极细的线
+极细的线 - 用极简的方式实现
 
 ## Usage
 
