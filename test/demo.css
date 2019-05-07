@@ -76,6 +76,42 @@
     border-width: 1px 1px 1px 0;
 }
 
+.hairline-demo__box--input1,
+.hairline-demo__box--input2,
+.hairline-demo__box--input3 {
+    height: 34px;
+    line-height: 34px;
+}
+.hairline-demo__box--input1 input,
+.hairline-demo__box--input2 input,
+.hairline-demo__box--input3 input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+.hairline-demo__box--input1,
+.hairline-demo__box--input1 input {
+    background-color: transparent;
+}
+.hairline-demo__box--input3 {
+    border-radius: calc(8px/2);
+}
+.hairline-demo__box--input3:after {
+    border-radius: 8px;
+}
+
+.hairline-demo__box--textarea {
+    border-radius: calc(8px/2);
+}
+.hairline-demo__box--textarea textarea {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+.hairline-demo__box--textarea:after {
+    border-radius: 8px;
+}
+
 .hairline-demo__box--normal {
     border: 1px solid red;
 }

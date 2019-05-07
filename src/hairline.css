@@ -18,10 +18,17 @@
     /* 边框 */
     border-width: 0;
     border-style: solid;
+
+    /* 不遮挡 */
+    pointer-events: none;
 }
+
+/* 全边框 */
 .hairline--round:after {
     border-width: 1px;
 }
+
+/* 单边框 */
 .hairline--top:after {
     border-top-width: 1px;
 }
@@ -33,4 +40,17 @@
 }
 .hairline--left:after {
     border-left-width: 1px;
+}
+
+/* 输入框 */
+.hairline--input input,
+.hairline--input textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    border-radius: inherit;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
