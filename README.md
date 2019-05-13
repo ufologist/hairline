@@ -1,4 +1,4 @@
-# hairline
+# [hairline](https://github.com/ufologist/hairline)
 
 [![NPM version][npm-image]][npm-url] [![changelog][changelog-image]][changelog-url] [![license][license-image]][license-url]
 
@@ -11,7 +11,7 @@
 
 [![npm-image](https://nodei.co/npm/hairline.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.com/package/hairline)
 
-极细的线 - 用极简的方式实现
+极细的线 - 用极简的方式实现 - [Demo](https://ufologist.github.io/hairline/test/index.html)
 
 ## Usage
 
@@ -62,7 +62,7 @@
 ## 其他实现
 
 * [postcss-retina](https://github.com/Ziphwy/postcss-retina)
-* [Hairlines | Framework7](https://framework7.io/docs/hairlines.html)
+* [Hairlines · Framework7](https://framework7.io/docs/hairlines.html)
 * [blear.scss.hairline](https://github.com/blearjs/blear.scss.hairline)
 * [border-retina](https://github.com/AlanZou007/air-css/blob/master/src/mixins/border-retina.css)
 * [border-1px.less](https://github.com/goddancer/npm/tree/master/border-1px.less)
