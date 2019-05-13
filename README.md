@@ -35,7 +35,7 @@
 
 ### Usage2: Download
 
-1. download [`hairline.css`](https://github.com/ufologist/hairline/blob/master/src/hairline.css)
+1. download [`hairline.css`](https://unpkg.com/hairline)
 2. link css
 
    ```html
