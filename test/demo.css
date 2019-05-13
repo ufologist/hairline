@@ -112,6 +112,18 @@
     border-radius: 8px;
 }
 
+.hairline-demo__list {
+    list-style: none;
+    padding-left: 0;
+}
+.hairline-demo__list .hairline:after {
+    border-color: red;
+}
+.hairline-demo__list li {
+    padding: 12px 12px 12px 0;
+    margin-left: 12px;
+}
+
 .hairline-demo__table {
     display: table;
     width: 300px;
